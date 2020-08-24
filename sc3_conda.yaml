@@ -1,0 +1,6 @@
+name: sc3_env
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - bioconductor-sc3=1.7.6-0
