@@ -4,7 +4,7 @@ params.n = 3
 
 process run_sc3 {
     input:
-    val n of 1..params.n
+    val n from 1..params.n
 
     output:
     file "clusters_${n}.txt" into clusters_to_merge
